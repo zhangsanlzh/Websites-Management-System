@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.div1{
+	width:320px;
+	height:250px;
+	
+	margin:auto;
+	margin-top:200px;
+	border-radius:20px;
+	}
+.input1{
+	margin:auto;
+	width:200px;
+	height:40px;
+	margin-left:50px;
+	margin-bottom:20px;
+	margin-top:40px;
+	border-radius:4px;
+
+	}
+.input2{
+	margin:auto;
+	width:200px;
+	height:40px;
+	margin-left:50px;
+	margin-bottom:20px;
+	border-radius:4px;
+
+	}
+.but1{
+	width:60px;
+	height:30px;
+	display:block;
+	float:left;
+	margin-left:30px;
+	opacity:0.5;
+	}
+.but2{
+	width:60px;
+	height:30px;
+	display:block;
+	margin-left:20px;
+	float:left;
+	opacity:0.5;
+	}

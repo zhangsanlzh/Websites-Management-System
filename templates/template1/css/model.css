@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+ div {text-align: center;}
+            #head{
+				width:100%;
+			    height: 150px;
+			    background-image:url(../images/banne1.jpg);
+				border-style: solid;
+				border-width: 2px;
+				border-color:#6cc;
+				position:absolute;
+				left: 1px;
+				top:1px;
+				}
+            #menu{
+				width:100%;
+				height: 50px;
+				margin:0 auto;
+				background-color: aqua;
+				border-style: solid;
+				border-width: 2px;
+				border-color:#6cc;
+				position: absolute;
+				left: 1px;
+				top: 156px;
+				 }			 
+             #list{
+				width: 440px;
+				height: 400px;
+				margin:0 auto;
+				background-color:#CFC;
+				border-style: solid;
+				border-width: 2px;
+				border-color:#6cc;
+				position: absolute;
+				left: 224px;
+				top: 221px;
+				}
+            #card1{
+				width: 440px;
+				height: 400px;
+				margin:0 auto;
+				background-color:#DDF;
+				border-style: solid;
+				border-width: 2px;
+				border-color:#6cc;
+				position: absolute;
+				left: 684px;
+				top: 221px;
+				}
+			#prat1{
+				width: 8px;
+				height: 8px;
+				background: #5BCAFF;
+				position: absolute;
+				left: 20px;
+				top: 20px;
+				}
+			#prat2{
+				width: 8px;
+				height: 8px;
+				background: #FF68FF;
+				position: absolute;
+				left: 28px;
+				top: 20px;
+			}
+			#prat3{
+				width: 8px;
+				height: 8px;
+				background: #FF9866;
+				position: absolute;
+				left: 20px;
+				top: 28px;
+				}
+			#prat4{
+				width: 8px;
+				height: 8px;
+				background: #00E372;
+				position: absolute;
+				left: 28px;
+				top: 28px;
+				}
+          /* #card4{
+				width: 1024px;
+				height:100px;
+				margin:0 auto;
+				background-color:#B3FFFF;
+				border-style: solid;
+				border-width: 2px;
+				border-color:#6cc;
+				position: absolute;
+				left: 1px;
+				top: 516px;
+				}
+            #bottom{
+				width: 1024px;
+				height:50px;
+				background-color:#B3FFFF;
+				border-style: solid;
+				border-width: 2px;
+				border-color:#6cc;
+				position: absolute;
+				left: 1px;
+				top: 621px;
+				}*/
+            #menu ul {
+                float:left;
+                margin: 0px;
+                padding: 0 0 0 0;
+                width: 1024px;
+                list-style: none;
+            }
+            #menu ul li {
+                display: inline;
+            }
+            #menu ul li a {
+				float:left;
+                padding: 11px 20px;
+				font-family:"微软雅黑";
+				font-style:normal;
+                font-size: 20px;
+                text-align: center;
+                text-decoration: none;
+                background: url(file:///D|/appserver/images/templatemo_menu_divider.png) center right no-repeat;
+                color:#69C;    
+                outline: none;
+            }
+             #menu li a:hover {
+                color: #fff;
+            }
+			 #font {
+				 width:130px;
+				 font-family:"微软雅黑";
+				 font-weight:bold;
+				 font-size:16px;
+				 color: #616161;
+				 text-align:center;
+				 line-height:55px;				 
+				 }  

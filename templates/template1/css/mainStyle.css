@@ -1,0 +1,67 @@
+/******************/
+/*网站服务系统css*/
+/******************/
+body{
+	margin: 0px;
+}
+
+.top{
+	height: 100px;
+	background-color: #BEE7AC;
+	margin:0px;
+	border-bottom: 1px solid #F5FCCC;
+}
+
+.wholeBox{
+	height: 800px;
+	background-color: #E8E8E8;
+	margin:0px;
+
+}
+
+.menu_box{
+	width: 10%;
+	height: 100%;
+	background-color: #F5FCCC;
+	float: left;
+}	
+
+.menu_box li{
+	text-decoration:none;
+	list-style-type: none;
+	height: 50px;
+	width: 100%;
+}
+
+.menu_box div:hover{
+	border-right: 3px solid #7EE550;
+}
+.menu_box a{
+	text-decoration: none;
+}
+.menu_box a:hover{
+	color: #409B1C;
+}
+
+
+.green_border{
+	border-left: 1px solid #BAE7A4;
+	height: 100%;
+	float: left;
+	margin: 0px;
+	display: inline-block;
+}
+
+.contents{
+	/*border:1px solid red;*/
+	width: 870px;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+}
+
+
+.templateBox{
+	border:1px solid red;
+}
+

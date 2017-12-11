@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+	
+.header{
+	width:1024px;
+    height:200px; 
+	background-color:#FCC; 
+	margin:0 auto;
+	background-image: url(../image/banner.jpg)
+	}
+.li{
+	list-style-type:none;
+	vertical-align:middle;
+	float:left;
+	width:100px;
+	margin-right:2px;
+	margin-top:0px;
+	display: inline-block;
+	background-color: #FFB7FF;
+	line-height:50px;
+	}	
+.nav{
+	width:1024px; 
+	height:50px; 
+	margin:0 auto; 
+	
+	}
+ul{
+	list-style:none outside none;
+	margin-top:0px;
+	
+	}
+
+a:link{
+	color:#000;
+	text-decoration:none;
+	}
+a:visited{
+	text-decoration:underline;
+	}
+a:hover{
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:underline;
+	background:#F00;
+	}
+.d1{
+	 margin:0 auto;
+	 height:20px;
+	 width:1024px;
+	 float:left;
+    }
+.content{
+	margin:0 auto;
+	height:660px;
+	width:1024px;
+	margin-top:20px;
+	}
+.cleft{
+	height:660px;
+	width:680px;
+	float:left;
+	margin-right:20px;
+	}
+
+.cright{
+	height:660px;
+	width:300px;
+	float:left; 
+	}
+.c1{
+	height:320px;
+	width:680px;
+	background-color:#FFF;
+	border:#666 thin solid;
+	margin-bottom:20px;
+	}
+.c2{
+	width:300px;
+	height:320px;
+	background-color:#FFF;
+	margin-bottom:20px;
+	border:#666 thin solid;
+	}
+.p1{
+	padding:10px;
+	}
+.p2{
+	margin-left:10px;
+	text-indent:2em;
+	line-height:2;
+	font-size:13px;
+	color:#000;
+	padding-top:20px;
+	}	
+.footer{
+	margin:0 auto;
+	height:150px;
+	width:1024px;
+	border-top:#999 thin solid;
+	margin-top:20px;
+	text-align:center;
+	padding-top:40px;
+	
+	}
